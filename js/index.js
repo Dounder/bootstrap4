@@ -31,6 +31,12 @@ sr.reveal('.method-content-right', {
     viewFactor: 0.5
 });
 
+sr.reveal('.read-btn', {
+    duration: 2000,
+    origin: 'bottom',
+    delay: 800
+});
+
 sr.reveal('.variable-content-left', {
     duration: 2000,
     origin: 'left',
@@ -87,10 +93,6 @@ sr.reveal('.footer-content-right', {
     viewFactor: 0.5
 });
 
-sr.reveal('.read-btn', {
-    duration: 2000,
-    origin: 'bottom',
-});
 
 //Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
