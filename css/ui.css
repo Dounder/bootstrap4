@@ -12,10 +12,13 @@ p {
     font-size: 30px;
 }
 
-#description p {
+#description {
     margin-top: 75px;
     font-size: 30px;
 }
+
+
+/*DARK MODE*/
 
 .dark {
     background-color: #303030;
@@ -27,7 +30,7 @@ p {
 }
 
 .dark #login {
-    filter: invert(80%);
+    filter: invert(100%);
     color: #303030;
 }
 
@@ -36,7 +39,7 @@ p {
 }
 
 .dark #bill {
-    filter: invert(80%);
+    filter: invert(100%);
     color: #303030;
 }
 
@@ -45,7 +48,7 @@ p {
 }
 
 .dark #product {
-    filter: invert(80%);
+    filter: invert(1000%);
     color: #303030;
 }
 
@@ -54,13 +57,16 @@ p {
 }
 
 .dark #provider {
-    filter: invert(80%);
+    filter: invert(1000%);
     color: #303030;
 }
 
 .dark #provider img {
     filter: invert(100%);
 }
+
+
+/*UP BUTTON*/
 
 .up-container {
     position: fixed;

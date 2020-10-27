@@ -8,12 +8,22 @@ img {
 }
 
 header {
-    margin-top: 50px;
+    margin-top: 75px;
+    font-size: 30px;
+    text-align: justify;
 }
+
+
+/*DARK MODE*/
 
 .dark {
     background-color: #303030;
     color: #f1f1f1;
+}
+
+.dark header {
+    filter: invert(80%);
+    color: #303030;
 }
 
 .dark #navbar {
@@ -24,7 +34,7 @@ header {
     filter: invert(80%);
 }
 
-.dark #header img {
+.dark #ui img {
     filter: invert(0%);
 }
 
@@ -55,17 +65,8 @@ header {
     filter: invert(0%);
 }
 
-#method {
-    background-color: #f1f1f1;
-}
 
-#flow-chart {
-    background-color: #f1f1f1;
-}
-
-#footer {
-    background: #f1f1f1;
-}
+/*UP BUTTON*/
 
 .up-container {
     position: fixed;
