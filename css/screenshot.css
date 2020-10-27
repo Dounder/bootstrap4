@@ -7,64 +7,59 @@ img {
     border-radius: 25px;
 }
 
-header {
-    margin-top: 50px;
+p {
+    text-align: justify;
+    font-size: 30px;
+}
+
+#description p {
+    margin-top: 75px;
+    font-size: 30px;
 }
 
 .dark {
     background-color: #303030;
-    color: #f1f1f1;
+    color: #f1eded;
 }
 
 .dark #navbar {
     filter: invert(80%);
 }
 
-.dark img {
-    filter: invert(80%);
-}
-
-.dark #header img {
-    filter: invert(0%);
-}
-
-.dark #method {
+.dark #login {
     filter: invert(80%);
     color: #303030;
 }
 
-.dark #method img {
-    filter: invert(0%);
+.dark #login img {
+    filter: invert(100%);
 }
 
-.dark #flow-chart {
+.dark #bill {
     filter: invert(80%);
     color: #303030;
 }
 
-.dark #flow-chart img {
-    filter: invert(0%);
+.dark #bill img {
+    filter: invert(100%);
 }
 
-.dark #footer {
+.dark #product {
     filter: invert(80%);
     color: #303030;
 }
 
-.dark #footer img {
-    filter: invert(0%);
+.dark #product img {
+    filter: invert(100%);
 }
 
-#method {
-    background-color: #f1f1f1;
+.dark #provider {
+    filter: invert(80%);
+    color: #303030;
 }
 
-#flow-chart {
-    background-color: #f1f1f1;
-}
-
-#footer {
-    background: #f1f1f1;
+.dark #provider img {
+    filter: invert(100%);
 }
 
 .up-container {

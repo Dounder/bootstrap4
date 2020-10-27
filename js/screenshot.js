@@ -33,21 +33,3 @@ function darkMode() {
     var bodyWeb = document.body
     bodyWeb.classList.toggle("dark")
 }
-
-window.onscroll = function() {
-    if (document.documentElement.scrollTop > 100) {
-        document.querySelector('.up-container')
-            .classList.add('show')
-    } else {
-        document.querySelector('.up-container')
-            .classList.remove('show')
-    }
-}
-
-document.querySelector('.up-container')
-    .addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
-    })
