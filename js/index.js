@@ -5,94 +5,17 @@ sr.reveal('.navbar', {
     origin: 'bottom'
 });
 
-sr.reveal('.header-content-left', {
+sr.reveal('.content', {
     duration: 2000,
-    origin: 'left',
+    origin: 'bottom',
     distance: '100px'
-});
-
-sr.reveal('.header-content-right', {
-    duration: 2000,
-    origin: 'right',
-    distance: '100px'
-});
-
-sr.reveal('.method-content-left', {
-    duration: 2000,
-    origin: 'left',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.method-content-right', {
-    duration: 2000,
-    origin: 'right',
-    distance: '100px',
-    viewFactor: 0.3
 });
 
 sr.reveal('.read-btn', {
     duration: 2000,
     origin: 'bottom',
-    delay: 800
+    delay: 500
 });
-
-sr.reveal('.variable-content-left', {
-    duration: 2000,
-    origin: 'left',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.variable-content-right', {
-    duration: 2000,
-    origin: 'right',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.flow-content-left', {
-    duration: 2000,
-    origin: 'left',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.flow-content-right', {
-    duration: 2000,
-    origin: 'right',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.use-case-content-left', {
-    duration: 2000,
-    origin: 'left',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.use-case-content-right', {
-    duration: 2000,
-    origin: 'right',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.footer-content-left', {
-    duration: 2000,
-    origin: 'left',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
-sr.reveal('.footer-content-right', {
-    duration: 2000,
-    origin: 'right',
-    distance: '100px',
-    viewFactor: 0.3
-});
-
 
 //Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -104,3 +27,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+//dark-mode
+function darkMode() {
+    var bodyWeb = document.body
+    bodyWeb.classList.toggle("dark")
+}

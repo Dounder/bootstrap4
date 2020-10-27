@@ -1,16 +1,33 @@
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+}
+
+img {
+    border-radius: 25px;
 }
 
 header {
     margin-top: 50px;
 }
 
-
-/*html.dark-btn {
-    filter: invert(100%);
+.dark {
+    background-color: #303030;
+    color: #f1eded;
 }
 
-html.dark-btn header img {
-    filter: invert(100%);
-}*/
+.dark #navbar {
+    filter: invert(80%);
+}
+
+.dark #card {
+    filter: invert(80%);
+}
+
+.dark img {
+    filter: invert(80%);
+}
+
+.dark #header img {
+    filter: invert(0%);
+}
