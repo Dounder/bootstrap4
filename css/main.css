@@ -34,35 +34,40 @@ header {
     filter: invert(80%);
 }
 
+.dark #database img {
+    filter: invert(0%);
+}
+
+.dark #ui {
+    filter: invert(80%);
+    color: #303030;
+}
+
 .dark #ui img {
-    filter: invert(0%);
+    filter: invert(100%);
 }
 
-.dark #method {
+.dark #variable {
     filter: invert(80%);
     color: #303030;
 }
 
-.dark #method img {
+.dark #variable img {
     filter: invert(0%);
 }
 
-.dark #flow-chart {
+.dark #use-case {
     filter: invert(80%);
     color: #303030;
 }
 
-.dark #flow-chart img {
+.dark #use-case img {
     filter: invert(0%);
 }
 
-.dark #footer {
+.dark #card {
     filter: invert(80%);
     color: #303030;
-}
-
-.dark #footer img {
-    filter: invert(0%);
 }
 
 
