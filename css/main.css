@@ -4,12 +4,12 @@ body {
 }
 
 img {
-    border-radius: 25px;
+    border-radius: 2rem;
 }
 
 header {
-    margin-top: 75px;
-    font-size: 30px;
+    margin-top: 20vh;
+    font-size: 1.5em;
     text-align: justify;
 }
 
