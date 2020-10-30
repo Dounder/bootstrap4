@@ -1,3 +1,13 @@
-#client {
-    margin: auto;
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+}
+
+img {
+    border-radius: 2rem;
+}
+
+header {
+    margin-top: 20vh;
+    text-align: justify;
 }

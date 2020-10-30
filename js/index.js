@@ -44,10 +44,9 @@ window.onscroll = function() {
     }
 }
 
-document.querySelector('.up-container')
-    .addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
+document.querySelector('.up-container').addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
     })
+})

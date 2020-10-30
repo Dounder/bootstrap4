@@ -20,8 +20,8 @@
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#header">Documentacion Algoritmos</a>
+        <div class="container col-md-12 col-sm-12">
+            <a class="navbar-brand" href="#header">Methods</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
               </span>
@@ -56,20 +56,20 @@
     </nav>
 
     <!--HEADER-->
-    <header id="header" class="mt-5">
-        <div class="row">
-            <div class="container content my-5 ">
-                <div class="row">
+    <header class="mt-5">
+        <div class="container content my-5 col-md-11 col-sm-11">
+            <div class="row">
+                <div>
                     <h1 class="display-4 ml-3">Descripcion general</h1>
                     <p style="font-size: 2em;" class="ml-3">El proyecto se manejo en dos paquetes principales que son:</p>
-                    <div class="col-md-6 col-sm-6 " id="header-left ">
-                        <p style="font-size: 2em; " class="text-justify ">El paquete database es el encargado de hacer todas la interacciones con la base de datos y de administrar los datos que se envian y se traen.</p>
-                        <a href="#database " class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">Database</a>
-                    </div>
-                    <div class="col-md-6 col-sm-6 " id="header-right ">
-                        <p style="font-size: 2em; " class="text-justify ">El paquete UI es el que se encarga de toda la logica y funcionamiento de la interfaz de usuario.</p>
-                        <a href="#ui " class="btn btn-outline-secondary btn-lg mt-2 read-btn my-5 ">Interfaz de Usuario</a>
-                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 " id="header-left ">
+                    <p style="font-size: 2em; " class="text-justify ">El paquete database es el encargado de hacer todas la interacciones con la base de datos y de administrar los datos que se envian y se traen.</p>
+                    <a href="#database " class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">Database</a>
+                </div>
+                <div class="col-md-6 col-sm-6 " id="header-right ">
+                    <p style="font-size: 2em; " class="text-justify ">El paquete UI es el que se encarga de toda la logica y funcionamiento de la interfaz de usuario.</p>
+                    <a href="#ui " class="btn btn-outline-secondary btn-lg mt-2 read-btn my-5 ">Interfaz de Usuario</a>
                 </div>
             </div>
         </div>
@@ -77,15 +77,15 @@
 
     <!--PAQUETE DATABASE-->
     <section id="database" style="background: #f1f1f1;">
-        <div class="row">
-            <div class="container my-5 content d-flex">
-                <div class="col-md-8 col-sm-8 my-auto">
+        <div class="container content col-md-11 col-sm-11">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 my-5">
                     <h1 class="display-4">Paquete database</h1>
                     <p style="font-size: 2em;" class="text-justify">Este paquete es el que se encarga de la logica y administracion de los datos que ingresa el usuario, para ser enviados a la base de datos y dependendiendo de la peticion realizada traera o no informacion</p>
                     <a href="sub-methods/database.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">Read More</a>
                 </div>
-                <div class="col-md-4 col-sm-4 my-auto">
-                    <img src="../img/package.png" alt="" width="100%">
+                <div class="col-md-4 col-sm-4 my-auto mx-auto d-block">
+                    <img src="../img/package.png" alt="" style="width: 100%;">
                 </div>
             </div>
         </div>
@@ -94,9 +94,9 @@
 
     <!--PAQUTE IO-->
     <section id="ui">
-        <div class="row">
-            <div class="container my-5 content d-flex">
-                <div class="col-md-4 col-sm-4 my-auto">
+        <div class="container content col-md-11 col-sm-11">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 my-5">
                     <img src="../img/package.png" alt="" width="100%">
                 </div>
                 <div class="col-md-8 col-sm-8 my-auto">

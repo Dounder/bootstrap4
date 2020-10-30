@@ -4,17 +4,16 @@ body {
 }
 
 img {
-    border-radius: 25px;
+    border-radius: 2rem;
 }
 
 p {
     text-align: justify;
-    font-size: 30px;
+    font-size: 2em;
 }
 
-#description {
-    margin-top: 75px;
-    font-size: 30px;
+header {
+    margin-top: 20vh;
 }
 
 
