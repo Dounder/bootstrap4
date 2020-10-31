@@ -65,8 +65,8 @@ header {
     filter: invert(0%);
 }
 
-.dark #card {
-    filter: invert(80%);
+.dark footer img {
+    filter: invert(0%);
     color: #303030;
 }
 
