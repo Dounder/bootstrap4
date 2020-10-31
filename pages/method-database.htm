@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Documentation</title>
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="../css/method-database.css">
+    <!--BOOTSTRAP 4-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--GOOGLE FOTNS-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/0399c98e6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+        <div class="container col">
+            <a class="navbar-brand" href="#header">Paquete database</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.htm">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ui.htm">UI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="method.htm">Methods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="variable.htm">Variables</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="flow-chart.htm">Flow Chart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="use-case.htm">Use Case</a>
+                    </li>
+                    <li class="nav-item my-auto ml-1">
+                        <label for="dark-btn" class="">
+                            <button class="dark btn btn-light" id="dark-btn" onclick="darkMode()">
+                                    <i class="far fa-moon"></i>
+                                </button>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <header id="header" class="mt-5">
+        <div class="row">
+            <div class="container content my-5 col-md-11 col-sm-11">
+                <h1 class="display-4">Descripcion General</h1>
+                <p class="text-justify" style="font-size:  2em;">
+                    Este paquete es utilizado para almacenar las clases y metodos que hacen las interacciones con la base de datos, para que envien o devuelvan datos.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section id="one" style="background: #f1f1f1;">
+        <div class="container content col-md-11">
+            <div class="row">
+                <div class="text-justify col my-5">
+                    <h1 class="display-4">Clase Cliente</h1>
+                    <p style="font-size: 1.5em;">Representacion del modelo de la tabla cliente, tiene mapeados los datos en codigo haciendo referencia a los datos que se encuentran en la tabla de la base de datos</p>
+                    <a href="sub-methods/dao/cliente-dao.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">View model</a>
+                </div>
+                <div class="text-justify col my-5">
+                    <h1 class="display-4">Clase Producto</h1>
+                    <p style="font-size: 1.5em;">Representacion del modelo de la tabla producto, tiene mapeados los datos en codigo haciendo referencia a los datos que se encuentran en la tabla de la base de datos</p>
+                    <a href="sub-methods/dao/producto-dao.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">View model</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="two">
+        <div class="container content col-md-11">
+            <div class="row">
+                <div class="text-justify col my-5">
+                    <h1 class="display-4">Clase Proveedor</h1>
+                    <p style="font-size: 1.5em;">Representacion del modelo de la tabla proveedor, tiene mapeados los datos en codigo haciendo referencia a los datos que se encuentran en la tabla de la base de datos</p>
+                    <a href="sub-methods/dao/proveedor-dao.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">View model</a>
+                </div>
+                <div class="text-justify col my-5">
+                    <h1 class="display-4">Clase SaldoPendiente</h1>
+                    <p style="font-size: 1.5em;">Representacion del modelo de la tabla saldoPendiente, tiene mapeados los datos en codigo haciendo referencia a los datos que se encuentran en la tabla de la base de datos</p>
+                    <a href="sub-methods/dao/saldo-pendiente-dao.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">View model</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="three" style="background: #f1f1f1;">
+        <div class="container content col-md-11">
+            <div class="row">
+                <div class="text-justify col my-5">
+                    <h1 class="display-4">Clase Vendedor</h1>
+                    <p style="font-size: 1.5em;">Representacion del modelo de la tabla vendedor, tiene mapeados los datos en codigo haciendo referencia a los datos que se encuentran en la tabla de la base de datos</p>
+                    <a href="sub-methods/dao/vendedor-dao.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">View model</a>
+                </div>
+                <div class="text-justify col my-5">
+                    <h1 class="display-4">Clase Producto</h1>
+                    <p style="font-size: 1.5em;">Representacion del modelo de la tabla venta, tiene mapeados los datos en codigo haciendo referencia a los datos que se encuentran en la tabla de la base de datos</p>
+                    <a href="sub-methods/dao/venta-dao.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">View model</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="four">
+        <div class="container content col-md-6 col-sm-6">
+            <div class="row">
+                <div class="text-justify col my-5">
+                    <h1 class="display-4">Clase VentaProducto</h1>
+                    <p style="font-size: 1.5em;">Representacion del modelo de la tabla VentaProducto, tiene mapeados los datos en codigo haciendo referencia a los datos que se encuentran en la tabla de la base de datos</p>
+                    <a href="sub-methods/dao/venta-producto-dao.htm" class="btn btn-outline-secondary btn-lg mt-2 read-btn my-1 ">View model</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--UP BUTTON-->
+    <div class="up-container ">
+        <div class="up-btn ">
+            <i class="fas fa-angle-up "></i>
+        </div>
+    </div>
+
+    <!--BOOTSTRAP SCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js " integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s " crossorigin="anonymous "></script>
+    <!--CUSTOM SCRIPT-->
+    <script src="../js/index.js "></script>
+</body>
+
+</html>
